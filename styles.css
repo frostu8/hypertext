@@ -1,0 +1,84 @@
+.parchment-bg {
+  margin: 0;
+  padding: 16px;
+  background-image: url('img/parchment.png');
+  background-repeat: repeat-y;
+}
+
+.black-bg {
+  margin: 0;
+  padding: 16px;
+  background-color: black;
+}
+
+.puzzle {
+  width: 50vw;
+  margin: auto;
+  overflow-wrap: break-word;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.red {
+  color: red;
+}
+
+.other1 {
+  font-family: serif;
+}
+
+.other2 {
+  font-family: monospace;
+}
+
+.ideas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.ideas p {
+  width: 300px;
+  margin: 20px;
+  overflow-wrap: break-word;
+}
+
+.city {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.city p {
+  width: 150px;
+  margin: 20px;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+
+.mosaic {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mosaic img {
+  width: 128px;
+  height: 128px;
+}
+
+.orange {
+  color: orange;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+.novisited a:visited {
+  color: blue;
+}
